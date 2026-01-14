@@ -1,6 +1,6 @@
 package Aula009;
 
-public class Funcionario {
+public class Funcionario extends Pessoa {
     private String setor;
     private boolean trabalhando;
 
