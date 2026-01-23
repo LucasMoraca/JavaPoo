@@ -2,12 +2,7 @@ package Aula012;
 
 public class Aula12 {
     public static void main(String[] args) {
-        
-        Mamifero m = new Mamifero();
-        Reptil r = new Reptil();
-        Ave a = new Ave();
-        Peixe p = new Peixe();
-
+    
         Cachorro c = new Cachorro();
         Canguru cg = new Canguru();
         Cobra cb = new Cobra();
@@ -17,6 +12,10 @@ public class Aula12 {
 
         cg.locomover();
         c.emitirSom();
+        cb.locomover();
+        t.locomover();
+        gf.locomover();
+        ar.locomover();
     
     }
 
